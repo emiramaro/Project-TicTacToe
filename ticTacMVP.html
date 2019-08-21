@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="ticTacMVP.css">
+
+    </head>
+    <body>
+        <div class="container">
+           <center><h1 id="Title">Welcome to TicTacToe</h1></center> 
+        </div>
+       <center> 
+        <div class="container">    
+            <div class="row">
+                <div class="col-sm">
+                    <img src="howTo.png" alt="Image" width="100px" height="100px">
+                    <p>Choose where you want to play.</p>
+                </div>
+                <div class="col-sm"> 
+                    <img src="howToWin.png" alt="Image" width="100px" height="100px">
+                    <p>First one who make a sequence win.</p>
+                </div>
+                <div class="col-sm"> 
+                    <img src="Victory.png" alt="Image" width="100px" height="100px">
+                    <p>Victory!</p>
+                </div>
+            </div>
+         </div>
+         </center>
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+             </tr>
+        </table>
+        <div class="endgame">
+            <div class="text"></div>
+        </div>
+        <div class="row" id="scores">
+            <div class="col-sm-6">
+                Player 
+            </div>
+            <div class="col-sm-6">
+                Bot 
+            </div> 
+        </div>
+        <script src="ticTacToe.js">
+        </script>
+
+        <button onClick="startGame()">Play Again</button>
+    </body>
+</html>
