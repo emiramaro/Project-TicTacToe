@@ -1,0 +1,77 @@
+td {
+    border: 3px solid #808c8b;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-family:'Courier New', Courier, monospace, cursive, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+body{
+    background-color:whitesmoke
+}
+
+#Title{
+    /* position: absolute; */
+    top: 120px;
+    left: 37%;
+}
+
+table {
+    background-color:#0bbdae;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%; 
+    margin-left: -90px;
+    top: 200px;
+    height: 70px
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+
+table tr:last-child td{
+    border-bottom: 0;
+}
+
+table tr td:first-child{
+    border-left: 0;
+}
+
+table tr td:last-child{
+    border-right: 0;
+}
+
+.endgame {
+    display: none;
+    width: 200px;
+    height: 80px;
+    top: 260px;
+    background-color:rosybrown;
+    position: absolute;
+    left: 50%;
+    margin-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 2em;
+}
+
+button {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -40px;
+}
+
+#scores {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-left:-55px
+}
