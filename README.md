@@ -2,11 +2,17 @@
 
 TicTacToe
 
-HTML: Buat table dengan cell 3x3 
+HTML: Create a table with a 3x3 grid of cells.
 
-CSS: Edit table untuk hapus border bagian tepi atas, kiri, kanan, dan bawah
+CSS: Style the table to remove the borders on the top, left, right, and bottom edges.
 
-Javascript: Bikin function untuk;   1. Klik cell dan munculkan simbol player 2. Giliran player dan bot 3. Menentukan susunan kemenangan 4. Menentukan susunan seri 5. Menentukan player yang menang dan kalah 4. Replay game dan reset tampilan ke awal
+JavaScript: Develop functions for:
 
-Rules game:
-Yang duluan berurutan 3x skor player akan bertambah, yang duluan mencapai poin 3 menjadi pemenang. (on progress))
+Clicking a cell to display the player's symbol.
+Alternating turns between the player and the bot.
+Determining the winning pattern.
+Identifying a draw situation.
+Declaring the winner and loser of the game.
+Replaying the game and resetting the display to its initial state.
+Game Rules:
+The first player to consecutively align three symbols increases their score. The first to reach three points wins the game.
