@@ -1,4 +1,4 @@
-# INPG-Project
+# Project Description
 
 TicTacToe
 
